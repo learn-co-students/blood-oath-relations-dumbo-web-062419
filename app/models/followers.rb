@@ -1,9 +1,9 @@
 class Follower
 
-attr_accessor :life_motto
-attr_reader :name, :age
+    attr_accessor :life_motto
+    attr_reader :name, :age
 
-@@all= []
+    @@all= []
 
     def initialize (name, age, life_motto= "")
         @name = name 

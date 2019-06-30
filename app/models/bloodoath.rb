@@ -3,7 +3,7 @@ class Bloodoath
     attr_accessor :date
 
     def initialization
-
+        
     end
 
     def initialization_date(date)

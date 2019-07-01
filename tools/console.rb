@@ -36,8 +36,8 @@ follower1.age = 16
 bob.age = 17
 follower2.age =18 
 
-bloody = BloodOath.new
-peter = BloodOath.new
+bloody = BloodOath.new(cult1, follower1)
+peter = BloodOath.new(cult2, follower2)
 
 peter.initiation_date = "1999-07-14"
 
